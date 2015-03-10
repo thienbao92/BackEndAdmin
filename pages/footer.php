@@ -16,7 +16,16 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="../dist/js/sb-admin-2.js"></script>
+   <!-- Bootstrap table -->
+    <script type="text/javascript" src="../js/BootstrapTable/bootstrap-table.js"></script>
+    <script type="text/javascript" src="../js/BootstrapTable/extensions/filter/bootstrap-table-filter.js"></script>
 
-</body>
+    <!-- Chart library -->
+    <script type="text/javascript" src="../js/D3/d3.min.js"></script>
+    <script type="text/javascript" src="../js/ChartLibrary/c3.min.js"></script>
+    <script type="text/javascript" src="../js/ChartLibrary/CustomPieChart.js"></script>
+
+
+ </body>
 
 </html>

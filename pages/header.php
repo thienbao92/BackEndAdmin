@@ -23,6 +23,8 @@
     <!-- Custom Fonts -->
     <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <!-- Bootstrap CSS links -->
+    <link rel="stylesheet" type="text/css" href="../js/BootstrapTable/bootstrap-table.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -30,6 +32,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Chart -->
+    <link rel="stylesheet" type="text/css" href="../js/ChartLibrary/c3.css">
+     <link rel="stylesheet" type="text/css" href="../js/ChartLibrary/c3.min.css">
 </head>
 
 <body>
