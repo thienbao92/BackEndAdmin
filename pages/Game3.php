@@ -23,10 +23,7 @@
                    <div class="col-xs-6 col-md-6">
 
                    <h3>Pie chart analysis</h3>
-                   <a href="#">
-                       <div id="PieChart"></div>
-                   </a>
-                        
+                        <div id="PieChart"></div>
 
                    </div><!-- End right column -->
                 </div> <!-- End row -->

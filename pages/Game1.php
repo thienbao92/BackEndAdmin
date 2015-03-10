@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                        Test Analysis - Class 3C01 - Test 001 
+                        Test Analysis - Class 3C01 - Test 001 - Game 001
                         </h1>
                     </div><!-- /.col-lg-12 -->
                      <div class="col-xs-6 col-md-6">
@@ -23,10 +23,7 @@
                    <div class="col-xs-6 col-md-6">
 
                    <h3>Pie chart analysis</h3>
-                   <a href="#">
-                       <div id="PieChart"></div>
-                   </a>
-                        
+                        <div id="PieChart"></div>
 
                    </div><!-- End right column -->
                 </div> <!-- End row -->
