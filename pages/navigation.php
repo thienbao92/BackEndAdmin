@@ -65,7 +65,7 @@
                             <a href="#"><i class="fa fa-files-o fa-fw"></i>Student's Pages<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a class="active" href="blank.php">Blank Page</a>
+                                    <a class="active" href="StudentTestList.php">Student Test List</a>
                                 </li>
                                 
                             </ul>
