@@ -87,7 +87,7 @@ var chart3 = c3.generate({
 //Student Chart
 
 var StudentChart = c3.generate({
-    bindto: "#StudentProcessChart"
+    bindto: "#StudentProcessChart",
     data: {
         columns: [
             ['data', 91.4]
@@ -118,9 +118,40 @@ var StudentChart = c3.generate({
         }
     },
     size: {
-        height: 180
+        height: 160
     }
 });
+
+
+
+var StudentChartStacked = c3.generate({
+    bindto: "#StudentStackedChart",
+    data: {
+
+        columns: [
+            ['Hard', 30,20,10],
+            ['Medium', 30,20,10],
+            ['Easy', 30,20,10]
+          
+        ],
+        type: 'bar',
+        groups: [
+            ['Hard', 'Medium', 'Easy']
+        ]
+    },
+        axis: {
+        x: {
+            type: 'category',
+            categories: ['1', '2', '3', '4', '5', 'Game 6', 'Game 7', 'Game 8', 'Game 9'],
+            label: 'Games'
+        },
+        y: {
+            label: ' Score'
+        }
+    }
+    
+});
+
 
 //End Student Chart
 
