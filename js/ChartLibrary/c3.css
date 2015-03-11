@@ -1,7 +1,8 @@
 /*-- Chart --*/
 
 .c3 svg {
-  font: 10px sans-serif;
+  font: 13px sans-serif;
+  font-style: bold;
 }
 .c3 path, .c3 line {
   fill: none;

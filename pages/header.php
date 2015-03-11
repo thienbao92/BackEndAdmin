@@ -34,7 +34,7 @@
 
     <!-- Chart -->
     <link rel="stylesheet" type="text/css" href="../js/ChartLibrary/c3.css">
-     <link rel="stylesheet" type="text/css" href="../js/ChartLibrary/c3.min.css">
+     <link rel="stylesheet" type="text/css" href="../js/ChartLibrary/c3.css">
 </head>
 
 <body>

@@ -8,9 +8,13 @@
 <!-- Content start from here -->
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">
-                        Test Analysis - Class 3C01 - Test 001 - Game 001
-                        </h1>
+                        <h2 class="page-header">
+                        <div class="col-xs-12 col-md-10" >
+                            Test Analysis - Class 3C01 - Test 001 - Game 001 
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="window.location.href='../pages/TestResult.php'">Back to Test Analysis</button>
+                        </h2>
+
                     </div><!-- /.col-lg-12 -->
                      <div class="col-xs-6 col-md-6">
 
@@ -39,8 +43,8 @@
                 <tr>
                     <th data-field="studentid" data-sortable="true">Student number</th>
                     <!-- <th data-field="test id">Test ID</th> -->
-                    <th data-field="average score">average score</th>
-                    <th data-field="average time">average time</th>
+                    <th data-field="average score">Score</th>
+                    <th data-field="average time">Time to finish</th>
                    
                 </tr>
             </thead>
