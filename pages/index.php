@@ -14,7 +14,7 @@
 	<div class="panel panel-default">
 	<div class="panel-body">
 			<div class="col-xs-12 col-md-10">
-			<h3> Class C002 - Test : Dynamic math - Test ID: Te002</h3>
+			<h3 > Class C002 - Test : Dynamic math - Test ID: Te002</h3>
 			<h4>Deadline: 15/03/2015</h4>
 		</div>
 		<div class="col-xs-6 col-md-2">
@@ -34,9 +34,19 @@
 	</div> <!-- End panel -->
 		
 	</a>
-		
+<!-- Test Jput -->
+<div jput="tbody_template">
+ <tr>
+  <td>{{name}}</td>
+  <td>{{score}}</td>
+ </tr>
+</div>
 
-		
+<table>
+ <tbody id="tbody">
+ </tbody>
+</table>
+		<!-- End Test Jput -->
 
 </div> <!-- end col-lg-12 -->
 		

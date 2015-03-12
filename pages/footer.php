@@ -25,7 +25,12 @@
     <script type="text/javascript" src="../js/ChartLibrary/c3.min.js"></script>
     <script type="text/javascript" src="../js/ChartLibrary/CustomPieChart.js"></script>
 
+    <!-- Jput Script -->
+    <script type="text/javascript" src="../js/jput.min.js"></script>
 
+
+    <!-- Custom Scripts -->
+    <script type="text/javascript" src="../js/script.js"></script>
  </body>
 
 </html>
