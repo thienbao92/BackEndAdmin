@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-//var json = [{"name": "name1","score":"30"},{"name": "name2","score":"50"}];
+
 //while running this code the template will be appended in your div with json data
 
 // $("#TestList").jPut({
@@ -9,9 +9,25 @@ $(document).ready(function(){
 //     name:"Test List",
 // })
 
+
+//return json arrays from PHP file
+var jsonp = (function () {
+    var jsonp = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': "http://users.metropolia.fi/~minhtn/game/getDataArray.php",
+        'dataType': "json",
+        'success': function (data) {
+            jsonp = data;
+        }
+    });
+    return jsonp;
+})(); 
+
 $("#TestList").jPut({
-    //jsonData: json,
-    ajax_url:"../class.json",//  if you want to call from a json file
+    jsonData: jsonp,
+    //ajax_url:"../class.json",//  if you want to call from a json file
     name:"Test List",
 })
 

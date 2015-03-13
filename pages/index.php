@@ -18,11 +18,12 @@
 	<div jput="Test List">
  
 		<a href="TestResult.php">
+
 	<div class="panel panel-default">
 	<div class="panel-body">
 			<div class="col-xs-12 col-md-10">
-			<h3 > Class : {{ClassID}} - Test : {{Test name}} - Test ID: {{TestID}}</h3>
-			<h4>Deadline: {{Deadline}}</h4>
+			<h3 > Class : {{class_id}} - Test : {{test_name}} - Test ID: {{test_id}}</h3>
+			<h4>Deadline: {{deadline}}</h4>
 		</div>
 		<div class="col-xs-6 col-md-2">
 		<!-- So luong hoc sinh hoan thanh bai test -->
