@@ -10,12 +10,19 @@
 
                     <!-- End header -->
 <div class="col-lg-12">
-		<a href="../pages/TestResult.php">
+
+<!-- Test Jput -->
+
+
+<div id="TestList">	
+	<div jput="Test List">
+ 
+		<a href="TestResult.php">
 	<div class="panel panel-default">
 	<div class="panel-body">
 			<div class="col-xs-12 col-md-10">
-			<h3 > Class C002 - Test : Dynamic math - Test ID: Te002</h3>
-			<h4>Deadline: 15/03/2015</h4>
+			<h3 > Class : {{ClassID}} - Test : {{Test name}} - Test ID: {{TestID}}</h3>
+			<h4>Deadline: {{Deadline}}</h4>
 		</div>
 		<div class="col-xs-6 col-md-2">
 		<!-- So luong hoc sinh hoan thanh bai test -->
@@ -25,8 +32,8 @@
 		</p>
 
 			<div class="progress">
-  	<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-    60%
+  	<div class="progress-bar" role="progressbar" aria-valuenow="{{Number finished}}" aria-valuemin="0" aria-valuemax="100" style="width: {{Number finished}}%;">
+    {{Number finished}}
   </div>
 </div>
 		</div>
@@ -34,19 +41,9 @@
 	</div> <!-- End panel -->
 		
 	</a>
-<!-- Test Jput -->
-<div jput="tbody_template">
- <tr>
-  <td>{{name}}</td>
-  <td>{{score}}</td>
- </tr>
-</div>
-
-<table>
- <tbody id="tbody">
- </tbody>
-</table>
-		<!-- End Test Jput -->
+</div><!-- End TestList Jput -->
+</div><!-- End TestList ID -->
+		
 
 </div> <!-- end col-lg-12 -->
 		
