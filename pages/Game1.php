@@ -12,7 +12,7 @@
                         <div class="col-xs-12 col-md-10" >
                             Test Analysis - Class 3C01 - Test 001 - Game 001 
                         </div>
-                        <button type="button" class="btn btn-primary" onclick="window.location.href='../pages/TestResult.php'">Back to Test Analysis</button>
+                        <button type="button" class="btn btn-primary" onclick="window.location.href='../pages/TestResult.php?TestID=2489&user=tom'">Back to Test Analysis</button>
                         </h2>
 
                     </div><!-- /.col-lg-12 -->

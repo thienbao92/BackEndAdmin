@@ -13,11 +13,10 @@
 
 <!-- Test Jput -->
 
+	<a href= 'TestResult.php?TestID=2489&user=tom'>Test</a>
 
 <div id="TestList">	
 	<div jput="Test List">
- 
-		<a href="TestResult.php">
 
 	<div class="panel panel-default">
 	<div class="panel-body">
@@ -41,7 +40,7 @@
 		</div>
 	</div> <!-- End panel -->
 		
-	</a>
+
 </div><!-- End TestList Jput -->
 </div><!-- End TestList ID -->
 		
